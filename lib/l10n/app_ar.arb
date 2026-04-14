@@ -1,0 +1,564 @@
+{
+  "@@locale": "ar",
+  "accountTypeTitle": "اختر نوع الحساب",
+  "accountTypeSubtitle": "سيتم استخدام هذا النوع لتخصيص واجهتك وصلاحياتك في التطبيق",
+  "accountTypeTenant": "مستأجر",
+  "accountTypeOwner": "مالك",
+  "accountTypeAgency": "مكتب عقاري",
+  "registerAsGuest": "تسجيل كزائر",
+  "appTitle": "إيجاري",
+  "appTagline": "إدارة وتوثيق عقود الإيجار في الأردن",
+  "loginWelcomeTitle": "مرحباً بك في إيجاري",
+  "loginSubtitle": "منصة توثيق عقود الإيجار الإلكترونية",
+  "loginViaSanad": "تسجيل الدخول عبر سند",
+  "loginViaSanadHint": "دخول آمن عبر الهوية الرقمية الأردنية",
+  "browseAsGuest": "تصفح كزائر",
+  "loginSecureBanner": "تسجيل الدخول آمن ومشفر — بياناتك محمية وفق السياسات الحكومية",
+  "tooltipSwitchLanguage": "تبديل اللغة",
+  "languageEnglishShort": "EN",
+  "languageArabicShort": "عربي",
+  "commonOk": "حسناً",
+  "commonCancel": "إلغاء",
+  "commonBack": "رجوع",
+  "commonError": "خطأ",
+  "commonNotFound": "غير موجود",
+  "commonUnauthorized": "غير مصرح",
+  "commonSave": "حفظ",
+  "commonSend": "إرسال",
+  "commonDelete": "حذف",
+  "commonEdit": "تعديل",
+  "commonDetails": "التفاصيل",
+  "commonMore": "المزيد",
+  "commonNext": "التالي",
+  "commonPrevious": "السابق",
+  "commonSearch": "بحث",
+  "commonFilter": "تصفية",
+  "commonClose": "إغلاق",
+  "commonReview": "مراجعة",
+  "commonNotifications": "الإشعارات",
+  "commonProfile": "الملف الشخصي",
+  "commonLogout": "تسجيل الخروج",
+  "commonPhone": "الهاتف",
+  "commonGuest": "زائر",
+  "commonDays": "يوم",
+  "commonDay": "يوم",
+  "commonJod": "د.أ",
+  "commonJodPerMonth": "د.أ / شهر",
+  "commonPercent": "٪",
+  "commonLoading": "جاري التحميل…",
+  "sanadTitle": "التحقق عبر سند",
+  "sanadIntro": "أدخل بيانات الهوية الرقمية كما في تطبيق سند (وضع تجريبي).",
+  "sanadNationalIdLabel": "رقم الهوية الوطنية",
+  "sanadPasswordLabel": "الرقم السري لسند",
+  "sanadPasswordHelper": "أي قيمة مقبولة في الوضع التجريبي",
+  "sanadVerifyContinue": "تحقق ومتابعة",
+  "sanadFooterNote": "بعد التحقق ستختار نوع حسابك في إيجاري (مستأجر، مالك، أو مكتب عقاري).",
+  "sanadErrNationalId": "أدخل رقم الهوية الوطنية كاملاً (10 أرقام).",
+  "sanadErrPassword": "أدخل الرقم السري لسند (تجريبي).",
+  "sanadErrGeneric": "تعذر إكمال التحقق. حاول مرة أخرى.",
+  "roleGuest": "زائر",
+  "roleOwner": "المالك",
+  "roleAgency": "مكتب عقاري",
+  "roleTenant": "المستأجر",
+  "welcomeUser": "مرحباً، {name}",
+  "@welcomeUser": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "ownerRoleLabel": "مالك عقار",
+  "tenantFabNewContractTooltip": "عقد إيجار رقمي جديد",
+  "notificationsSnackbar": "الإشعارات",
+  "contractActive": "نشط",
+  "contractMyCurrent": "عقدي الحالي",
+  "labelAddress": "العنوان: ",
+  "labelLandlord": "المالك: ",
+  "labelMonthlyRentDinar": "الإيجار الشهري: ",
+  "labelMonthlyRentJod": "الإيجار الشهري: {amount} دينار",
+  "@labelMonthlyRentJod": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "endsOn": "ينتهي في: ",
+  "annualProgress": "التقدم السنوي: {current}/{total} يوم",
+  "@annualProgress": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "pastContracts": "عقود سابقة",
+  "searchFindHome": "ابحث عن مسكنك",
+  "searchDiscover": "اكتشف أفضل الشقق المتاحة",
+  "aiPredictTitle": "توقع سعر الشقة بالذكاء الاصطناعي",
+  "aiPredictSubtitle": "تقدير حسب المساحة والطابق والعمر والصيانة والأسعار المرجعية",
+  "recentNotifications": "الإشعارات الأخيرة",
+  "notifRentReceivedTitle": "تم استلام إيجار شهر مارس",
+  "notifRentReceivedTime": "منذ يومين",
+  "notifContractEndingTitle": "تذكير: العقد ينتهي خلال 45 يوم",
+  "notifContractEndingTime": "منذ أسبوع",
+  "quickRateLandlord": "قيم المالك",
+  "quickRateLandlordSub": "شارك تجربتك",
+  "quickRenewContract": "تجديد العقد",
+  "quickRenewContractSub": "جدد عقدك الآن",
+  "needActiveContract": "يتطلب ذلك عقداً نشطاً. سجّل الدخول كمستأجر.",
+  "ownerStatRented": "عقارات مؤجرة",
+  "ownerStatVacant": "شاغرة",
+  "ownerStatTotalRent": "إجمالي الإيجار",
+  "ownerMyRented": "عقاراتي المؤجرة",
+  "ownerMyVacant": "عقاراتي الشاغرة",
+  "ownerProposedRent": "طلب إيجار مقترح: {amount} د.أ",
+  "@ownerProposedRent": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "rateTenant": "قيّم المستأجر",
+  "publishProperty": "نشر عقار",
+  "propertyNotFoundTitle": "غير موجود",
+  "propertyNotFoundBody": "العقار غير موجود",
+  "propertyAvailableNow": "متاحة الآن",
+  "propertyNotAvailable": "غير متاحة",
+  "propertyPricePerMonth": "السعر / شهر",
+  "propertyArea": "المساحة",
+  "propertyDescription": "الوصف",
+  "propertyOwnerSection": "مالك العقار",
+  "propertyCall": "اتصل",
+  "propertyWhatsapp": "واتساب",
+  "propertySubmitRentalRequest": "تقدم بطلب إيجار",
+  "propertyTenantReviews": "آراء المستأجرين",
+  "propertyIsPriceFair": "هل السعر عادل؟",
+  "propertyExpectedRange": "النطاق المتوقع للمنطقة: {low}–{high} د.أ / شهر",
+  "@propertyExpectedRange": {
+    "placeholders": {
+      "low": {},
+      "high": {}
+    }
+  },
+  "propertySmartPredictionDetails": "تفاصيل التوقع الذكي",
+  "propertyOwnerListingsCount": "· {count} عقارات",
+  "@propertyOwnerListingsCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "propertyRoomsCount": "{n} غرف",
+  "@propertyRoomsCount": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "propertyBathsCount": "{n} حمام",
+  "@propertyBathsCount": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "searchAll": "الكل",
+  "searchPageTitle": "ابحث عن مسكنك",
+  "searchPageSubtitle": "اكتشف أفضل الشقق المتاحة للإيجار في الأردن",
+  "searchBack": "رجوع",
+  "searchFilterTooltip": "تصفية",
+  "searchPricePredictTooltip": "توقع السعر حسب المنطقة",
+  "searchFieldHint": "ابحث بالمنطقة أو المدينة...",
+  "searchDistrictLabel": "المنطقة: {district}",
+  "@searchDistrictLabel": {
+    "placeholders": {
+      "district": {}
+    }
+  },
+  "searchFoundCount": "تم العثور على {count} عقار",
+  "@searchFoundCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "searchOwnerRating": "تقييم المالك",
+  "searchJodPerMonthShort": "د.أ/شهر",
+  "rentalRequestErrorTitle": "خطأ",
+  "rentalRequestTitle": "طلب إيجار",
+  "rentalRequestSummary": "ملخص الطلب",
+  "rentalRequestSentTitle": "تم الإرسال",
+  "rentalRequestSentBody": "تم استلام طلبك بنجاح. سيتواصل معك المالك أو المنصة قريباً.",
+  "rentalRequestSubmit": "إرسال الطلب",
+  "profileTitle": "الملف الشخصي",
+  "profileNoUser": "لا يوجد مستخدم مسجّل.",
+  "profileMyRatingsTitle": "سجل تقييماتي",
+  "profileMyRatingsSubtitle": "عرض سمعتك والتقييمات التي استلمتها",
+  "addPropertyTitle": "إضافة عقار جديد",
+  "addPropertyPlaceholder": "سيتم هنا لاحقاً إدخال عنوان العقار والسعر والصور والموقع على الخريطة.",
+  "addPropertyFieldLabel": "عنوان العقار (تجريبي)",
+  "addPropertyClose": "إغلاق",
+  "myRatingsTitle": "سجل تقييماتي",
+  "myRatingsLoginRequired": "سجّل الدخول لعرض تقييماتك.",
+  "myRatingsWrongAccount": "لا يتوفر سجل لنوع حسابك.",
+  "myRatingsStarDistribution": "توزيع النجوم",
+  "myRatingsAllReviews": "جميع التقييمات",
+  "myRatingsEmpty": "لا توجد تقييمات بعد.",
+  "myRatingsAverageGeneral": "متوسط التقييم العام",
+  "myRatingsCriteriaAsLandlord": "معايير تقييمك كمالك",
+  "myRatingsCriteriaAsTenant": "معايير تقييمك كمستأجر",
+  "criteriaCooperation": "التعاون والتواصل",
+  "criteriaMaintenance": "صيانة العقار",
+  "criteriaResponsiveness": "الاستجابة للطلبات",
+  "criteriaTransparency": "الشفافية",
+  "criteriaPayment": "الالتزام بالدفع",
+  "criteriaPropertyCare": "المحافظة على العقار",
+  "criteriaTenantCooperation": "التعاون",
+  "criteriaContractCompliance": "الالتزام بالعقد",
+  "publicProfileTitle": "الملف العام",
+  "publicProfileNotFound": "المستخدم غير موجود.",
+  "publicProfilePhone": "الهاتف: {phone}",
+  "@publicProfilePhone": {
+    "placeholders": {
+      "phone": {}
+    }
+  },
+  "publicProfileReviewCount": "({count} تقييم)",
+  "@publicProfileReviewCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "publicProfilePropertyTitles": "عناوين العقارات (بدون تفاصيل حساسة)",
+  "publicProfileRoomCount": "{title} — {rooms} غرف",
+  "@publicProfileRoomCount": {
+    "placeholders": {
+      "title": {},
+      "rooms": {}
+    }
+  },
+  "publicProfileViewAllReviews": "عرض كل التقييمات",
+  "publicAllReviewsTitle": "كل التقييمات",
+  "publicNoReviews": "لا توجد تقييمات.",
+  "landlordReviewsTitle": "كل تقييمات المالك",
+  "sortNewest": "الأحدث",
+  "sortHighestRating": "الأعلى تقييماً",
+  "sortLowestRating": "الأقل تقييماً",
+  "tenantReputationAvg": "متوسط التقييم من 5",
+  "reportReviewTitle": "إبلاغ عن تقييم مسيء",
+  "reportReviewBody": "سيتم إرسال البلاغ لفريق إيجاري للمراجعة (تجريبي).",
+  "reportReviewHint": "سبب البلاغ (اختياري)",
+  "reportReviewSubmit": "إرسال",
+  "reportReviewReceived": "تم استلام البلاغ رقم #{id} وسيتم مراجعته.",
+  "@reportReviewReceived": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "reportReviewReceivedWithNote": "تم استلام البلاغ #{id}: {note}",
+  "@reportReviewReceivedWithNote": {
+    "placeholders": {
+      "id": {},
+      "note": {}
+    }
+  },
+  "pricePredictionTitle": "توقع سعر الإيجار بالذكاء الاصطناعي",
+  "pricePredictionIntro": "توقع ذكي — أدخل المعايير أدناه لحساب سعر إيجار عادل تقريبي (نموذج وهمي).",
+  "pricePredictionHintAreaExample": "مثال: 120",
+  "pricePredictionHintOutdoor": "يمكن أن تكون 0",
+  "pricePredictionNoneNoEffect": "بدون — لا يؤثر",
+  "pricePredictionStarsOfFive": "{n} من 5",
+  "@pricePredictionStarsOfFive": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "pricePredictionMaintHint": "وصف بسيط، مثال: تبديل مكيف",
+  "pricePredictionDeleteTooltip": "حذف",
+  "pricePredictionAddMaintenance": "إضافة صيانة",
+  "pricePredictionRefPriceHint": "سعر {n}",
+  "@pricePredictionRefPriceHint": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "pricePredictionAddRefPrice": "إضافة سعر مرجعي",
+  "pricePredictionComputing": "جاري الحساب...",
+  "pricePredictionPredict": "توقع السعر",
+  "pricePredictionSmart": "توقع ذكي",
+  "pricePredictionFairExpected": "السعر العادل المتوقع: {amount} دينار/شهر",
+  "@pricePredictionFairExpected": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "pricePredictionDisclaimer": "الحساب وهمي ويُفترض إدخالاً دقيقاً؛ يُستخدم كدليل تقريبي فقط.",
+  "pricePredictionErrHouseArea": "أدخل مساحة البيت بقيمة أكبر من صفر.",
+  "pricePredictionErrOutdoorNegative": "مساحة الأرض حول المنزل لا يمكن أن تكون سالبة.",
+  "floorGround": "أرضي",
+  "floorFirst": "أول",
+  "floorSecond": "ثاني",
+  "floorThird": "ثالث",
+  "floorRoof": "سطح",
+  "floorVilla": "فيلا مستقلة",
+  "compareAboveExpected": "أعلى من المتوقع",
+  "compareBelowExpected": "أقل من المتوقع",
+  "compareWithinExpected": "ضمن النطاق المتوقع",
+  "landlordRatingTitle": "تقييم المالك",
+  "landlordRatingNoContract": "لا يوجد عقد نشط لعرضه.",
+  "landlordRatingErrCriteria": "يرجى اختيار جميع المعايير (نجمة واحدة على الأقل لكل بند)",
+  "landlordRatingErrDuplicate": "تم تقييم هذا المالك على هذا العقد مسبقاً.",
+  "landlordRatingErrOwner": "تعذر تحديد المالك من العقد.",
+  "landlordRatingSuccessTitle": "تم",
+  "landlordRatingSuccessBody": "تم إرسال تقييمك بنجاح وسيظهر في سجل المالك.",
+  "landlordRatingAnonymousTitle": "إخفاء اسمي وعرض «مستخدم محظوظ»",
+  "landlordRatingSubmit": "إرسال التقييم",
+  "tenantRatingTitle": "تقييم المستأجر",
+  "tenantRatingErrOwnerOnly": "يجب تسجيل الدخول كمالك.",
+  "tenantRatingErrCriteria": "يرجى اختيار جميع المعايير.",
+  "tenantRatingErrDuplicate": "تم تقييم هذا المستأجر على هذا العقد مسبقاً.",
+  "tenantRatingSuccessTitle": "تم",
+  "tenantRatingSuccessBody": "تم إرسال تقييمك بنجاح وسيظهر في سجل المستأجر.",
+  "tenantRatingSubmit": "إرسال التقييم",
+  "agencyUnauthorized": "غير مصرح",
+  "agencyContractsTitle": "العقود",
+  "agencyContractNumber": "رقم العقد: {id}",
+  "@agencyContractNumber": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "agencyPropertyLabel": "العقار: {title}",
+  "@agencyPropertyLabel": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "agencyTenantLabel": "المستأجر: ",
+  "agencyOwnerLabel": "المالك: ",
+  "agencyContractStatusActive": "نشط",
+  "agencyContractStatusEnded": "منتهٍ",
+  "agencyDateRange": "من {start} إلى {end}",
+  "@agencyDateRange": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "agencyMonthlyRent": "الإيجار الشهري: {amount} د.أ",
+  "@agencyMonthlyRent": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "agencyCommissionPercent": "نسبة العمولة: {p}٪",
+  "@agencyCommissionPercent": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "agencyPdfSnack": "تحميل PDF: {url}",
+  "@agencyPdfSnack": {
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "agencyRenewMock": "تجديد العقد بالنيابة (وهمي) — يُرسل للطرفين",
+  "agencyRenewContract": "تجديد العقد",
+  "agencyPropertiesTitle": "عقارات المكتب",
+  "agencyAddPropertyNew": "إضافة عقار جديد",
+  "agencyVacant": "شاغر",
+  "agencyRented": "مؤجر",
+  "agencyEditMock": "تعديل العقار (تجريبي)",
+  "agencyDeleteMock": "حذف العقار (تجريبي)",
+  "agencyRequestTitle": "طلب إيجار",
+  "agencyRequestNotFound": "الطلب غير موجود",
+  "agencyRequestReviewTitle": "مراجعة الطلب",
+  "agencyStatusPending": "قيد المراجعة",
+  "agencyStatusAccepted": "مقبول",
+  "agencyStatusRejected": "مرفوض",
+  "agencyPropertyLine": "العقار: {title}",
+  "@agencyPropertyLine": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "agencyDateLine": "التاريخ: {date}",
+  "@agencyDateLine": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "agencyStatusLine": "الحالة: {status}",
+  "@agencyStatusLine": {
+    "placeholders": {
+      "status": {}
+    }
+  },
+  "agencyTenantRecord": "سجل المستأجر",
+  "agencyAcceptMock": "تم قبول الطلب (وهمي)",
+  "agencyAccept": "قبول",
+  "agencyRejectMock": "تم رفض الطلب (وهمي)",
+  "agencyReject": "رفض",
+  "agencyRequestsTitle": "طلبات الإيجار",
+  "agencyOwnersTitle": "المالكون",
+  "agencyAddOwner": "إضافة مالك",
+  "agencyAddOwnerDialogTitle": "إضافة مالك جديد",
+  "agencyAddOwnerDialogBody": "أدخل رقم الهوية لجلب البيانات (وهمي).",
+  "agencyNationalIdLabel": "رقم الهوية",
+  "agencyFetchMock": "تم جلب بيانات المالك وهمياً للهوية {id}",
+  "@agencyFetchMock": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "agencyFetchData": "جلب البيانات",
+  "agencyDashboardTitle": "مكتب عقاري",
+  "agencyDashboardNoOffice": "لا يوجد مكتب مرتبط بحسابك.",
+  "agencyAddProperty": "إضافة عقار",
+  "agencyShowAllProperties": "عرض كل العقارات",
+  "agencyIncomingRequests": "طلبات الإيجار الواردة",
+  "agencyShowAllRequests": "عرض كل الطلبات",
+  "agencyContractsViaOffice": "العقود عبر المكتب",
+  "agencyShowAll": "عرض الكل",
+  "agencyCommissionLog": "سجل العمولات",
+  "agencyShowFullLog": "عرض السجل الكامل",
+  "agencyOfficeRating": "تقييم المكتب",
+  "agencyShowAllReviews": "عرض كل التقييمات",
+  "agencyReview": "مراجعة",
+  "agencyCommissionLine": "عمولة {p}٪",
+  "@agencyCommissionLine": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "agencyPdfOpenMock": "سيتم فتح رابط PDF (تجريبي)",
+  "agencyCommissionAmount": "{amount} د.أ — {state}",
+  "@agencyCommissionAmount": {
+    "placeholders": {
+      "amount": {},
+      "state": {}
+    }
+  },
+  "agencyPaid": "مدفوع",
+  "agencyDue": "مستحق",
+  "agencyAddPropertyScreenTitle": "إضافة عقار للمكتب",
+  "agencyDelegatedOwner": "المالك الموكل",
+  "agencySelectOwnerSnack": "اختر المالك الموكل",
+  "agencySavePropertyMock": "تم حفظ الطلب وهمياً — سيتم مراجعته",
+  "agencySaveProperty": "حفظ العقار",
+  "agencyReviewsTitle": "تقييمات المكتب",
+  "agencyAvgOfficeRating": "متوسط تقييم المكتب",
+  "agencySettingsTitle": "إعدادات المكتب",
+  "agencySettingsSavedMock": "تم حفظ الإعدادات (وهمي)",
+  "agencyExportMock": "تم تصدير التقرير (وهمي)",
+  "agencyExport": "تصدير",
+  "agencyCommissionsTitle": "سجل العمولات",
+  "agencyColContractDate": "تاريخ العقد",
+  "agencyColProperty": "العقار",
+  "agencyColAnnualRent": "إيجار سنوي",
+  "agencyColCommissionPct": "العمولة %",
+  "agencyColAmount": "المبلغ",
+  "agencyColPayment": "الدفع",
+  "digitalContractTitle": "العقد الرقمي الموثّق",
+  "digitalContractTenantOnly": "العقد الرقمي الموثّق متاح للمستأجرين. سجّل الدخول كمستأجر من الشاشة الرئيسية.",
+  "digitalContractRenewTitle": "تجديد العقد الرقمي",
+  "digitalContractNewTitle": "عقد إيجار رقمي موثّق",
+  "digitalContractIssueCert": "إصدار الشهادة والتنزيل",
+  "dcStep1Title": "1. معلومات العقار (دائرة الأراضي والمساحة — وهمي)",
+  "dcStep2Title": "2. تفاصيل الإيجار",
+  "dcStep3Title": "3. أطراف العقد (الهوية الرقمية — وهمي)",
+  "dcStep4Title": "4. معاينة العقد والتوقيع الإلكتروني",
+  "dcStep5Title": "5. رسوم التوثيق والدفع",
+  "dcLabelDeedRef": "رقم صك الملكية / مرجع الوثيقة",
+  "dcLabelParcel": "رقم القطعة / الحوض",
+  "dcSearchLand": "بحث في السجلات (محاكاة)",
+  "dcSearchingLand": "جاري البحث…",
+  "dcLandResultTitle": "نتيجة الاستعلام",
+  "dcLinkedIdMock": "معرّف مرتبط (وهمي): {id}",
+  "@dcLinkedIdMock": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "dcSnackLandFetched": "تم جلب بيانات العقار (محاكاة دائرة الأراضي).",
+  "dcSnackEnterNationalId": "أدخل الرقم الوطني أولاً",
+  "dcSnackDigitalIdOk": "تم الجلب من الهوية الرقمية (وهمي).",
+  "dcSnackDigitalIdFail": "تعذر الجلب — تحقق من الرقم الوطني",
+  "dcSignDialogTitle": "تأكيد الهوية للتوقيع",
+  "dcSignDialogBody": "اختر وسيلة التحقق (وهمية). بعد التأكيد يُرسل إشعار للطرف الآخر لإتمام توقيعه وفق قانون المعاملات الإلكترونية.",
+  "dcAuthBiometric": "بصمة",
+  "dcAuthOtp": "رمز OTP",
+  "dcAuthPin": "رمز سري",
+  "dcSignNow": "توقيع الآن",
+  "dcSnackNotifyOther": "تم التحقق. جاري إخطار الطرف الآخر لتوقيع العقد إلكترونياً (إشعار وهمي).",
+  "dcSnackOtherSigned": "تم استلام توقيع الطرف الآخر (محاكاة). يمكنك المتابعة للدفع وإصدار الشهادة.",
+  "dcSnackDashboardUpdated": "تم تحديث عقدك في لوحة التحكم.",
+  "dcSnackCertFail": "تعذر إصدار الشهادة: {error}",
+  "@dcSnackCertFail": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "dcValidateLand": "استخدم «بحث» لجلب بيانات العقار من دائرة الأراضي (وهمي).",
+  "dcValidateRent": "أدخل إيجاراً شهرياً صالحاً",
+  "dcValidateDeposit": "أدخل مبلغ تأمين صالحاً",
+  "dcValidateConfirmParties": "أكّد بيانات المالك والمستأجر من الهوية الرقمية.",
+  "dcValidatePartyNames": "أكمل بيانات الأطراف",
+  "dcValidateSignatures": "أكمل التوقيع الإلكتروني وانتظر محاكاة توقيع الطرف الآخر",
+  "dcValidateCertPay": "اختر طريقة دفع رسوم التوثيق",
+  "dcDurationLabel": "مدة العقد",
+  "dcDurationOneYear": "سنة واحدة",
+  "dcDurationTwoYears": "سنتان",
+  "dcDurationThreeYears": "3 سنوات",
+  "dcMonthlyRentLabel": "القيمة الإيجارية الشهرية (د.أ)",
+  "dcRentPaymentMethod": "طريقة دفع الإيجار",
+  "dcDepositLabel": "مبلغ التأمين (د.أ)",
+  "dcLeaseStartTitle": "تاريخ بدء العقد",
+  "dcLeaseEndComputed": "تاريخ انتهاء العقد (محسوب): {date}",
+  "@dcLeaseEndComputed": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "dcPartyOwnerTitle": "بيانات المؤجر",
+  "dcPartyTenantTitle": "بيانات المستأجر",
+  "dcPartiesIntro": "تُسترد البيانات تلقائياً من نظام الهوية الرقمية لغايات التوثيق. يمكنك التأكيد بعد المراجعة.",
+  "dcFullName": "الاسم الكامل",
+  "dcNationalId": "الرقم الوطني",
+  "dcFetchDigitalId": "جلب من الهوية الرقمية",
+  "dcConfirmData": "أؤكد صحة البيانات المعروضة",
+  "dcPreviewIntro": "النص أدناه يجمع البنود الأساسية المتفق عليها شائعاً في عقود الإيجار ومراعاة للإطار القانوني الأردني؛ يُستكمل لاحقاً بملاحق فنية حسب الحاجة.",
+  "dcSignNowButton": "توقيع الآن",
+  "dcSigningStatusBoth": "اكتمل التوقيع من الطرفين (محاكاة)",
+  "dcSigningStatusWait": "بانتظار محاكاة توقيع الطرف الآخر…",
+  "dcCertFeeLine": "رسوم إصدار شهادة «إيجاري» لهذا العقد: {fee} د.أ (وهمي، ضمن النطاق 10–20 د.أ).",
+  "@dcCertFeeLine": {
+    "placeholders": {
+      "fee": {}
+    }
+  },
+  "dcPayMethodMock": "طريقة الدفع (محاكاة)",
+  "dcAfterPayBlurb": "بعد الدفع ستُنشأ «شهادة إيجاري» بصيغة PDF تحتوي على رمز QR للتحقق، ويُحدَّث عقدك في لوحة التحكم.",
+  "dcProgressStep": "الخطوة {step} من 5 — {label}",
+  "@dcProgressStep": {
+    "placeholders": {
+      "step": {},
+      "label": {}
+    }
+  },
+  "dcProgressLabelProperty": "العقار",
+  "dcProgressLabelRent": "الإيجار",
+  "dcProgressLabelParties": "الأطراف",
+  "dcProgressLabelSign": "التوقيع",
+  "dcProgressLabelPay": "الدفع",
+  "dcBarCancel": "إلغاء",
+  "dcBarBack": "السابق",
+  "dcRentPayBank": "تحويل بنكي شهري",
+  "dcRentPayCash": "كاش عند الاستحقاق",
+  "dcRentPayWallet": "محفظة إلكترونية",
+  "dcCertPayCard": "بطاقة بنكية (وهمي)",
+  "dcCertPayGovWallet": "محفظة حكومية (وهمي)",
+  "dcCertPayInstant": "تحويل فوري",
+  "dcConfirmSignDialogVerified": "تم التحقق. جاري إخطار الطرف الآخر لتوقيع العقد إلكترونياً (إشعار وهمي).",
+  "landlordReviewStars": "{n}/5",
+  "@landlordReviewStars": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "wordYear": "سنة",
+  "wordYears": "سنوات"
+}

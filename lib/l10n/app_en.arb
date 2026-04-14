@@ -1,0 +1,564 @@
+{
+  "@@locale": "en",
+  "accountTypeTitle": "Choose account type",
+  "accountTypeSubtitle": "This selection customizes your interface and permissions in the app.",
+  "accountTypeTenant": "Tenant",
+  "accountTypeOwner": "Property owner",
+  "accountTypeAgency": "Real estate agency",
+  "registerAsGuest": "Continue as guest",
+  "appTitle": "Ejari",
+  "appTagline": "Manage and certify rental contracts in Jordan",
+  "loginWelcomeTitle": "Welcome to Ejari",
+  "loginSubtitle": "Electronic rental contract certification platform",
+  "loginViaSanad": "Sign in with Sanad",
+  "loginViaSanadHint": "Secure login via Jordan Digital Identity",
+  "browseAsGuest": "Browse as guest",
+  "loginSecureBanner": "Login is secure and encrypted — your data is protected under government policies",
+  "tooltipSwitchLanguage": "Switch language",
+  "languageEnglishShort": "EN",
+  "languageArabicShort": "عربي",
+  "commonOk": "OK",
+  "commonCancel": "Cancel",
+  "commonBack": "Back",
+  "commonError": "Error",
+  "commonNotFound": "Not found",
+  "commonUnauthorized": "Unauthorized",
+  "commonSave": "Save",
+  "commonSend": "Send",
+  "commonDelete": "Delete",
+  "commonEdit": "Edit",
+  "commonDetails": "Details",
+  "commonMore": "More",
+  "commonNext": "Next",
+  "commonPrevious": "Previous",
+  "commonSearch": "Search",
+  "commonFilter": "Filter",
+  "commonClose": "Close",
+  "commonReview": "Review",
+  "commonNotifications": "Notifications",
+  "commonProfile": "Profile",
+  "commonLogout": "Log out",
+  "commonPhone": "Phone",
+  "commonGuest": "Guest",
+  "commonDays": "days",
+  "commonDay": "day",
+  "commonJod": "JOD",
+  "commonJodPerMonth": "JOD / month",
+  "commonPercent": "%",
+  "commonLoading": "Loading…",
+  "sanadTitle": "Verify with Sanad",
+  "sanadIntro": "Enter your digital identity details as in the Sanad app (demo mode).",
+  "sanadNationalIdLabel": "National ID number",
+  "sanadPasswordLabel": "Sanad password",
+  "sanadPasswordHelper": "Any value is accepted in demo mode",
+  "sanadVerifyContinue": "Verify and continue",
+  "sanadFooterNote": "After verification you will choose your Ejari account type (tenant, landlord, or agency).",
+  "sanadErrNationalId": "Enter the full national ID (10 digits).",
+  "sanadErrPassword": "Enter the Sanad password (demo).",
+  "sanadErrGeneric": "Verification could not be completed. Try again.",
+  "roleGuest": "Guest",
+  "roleOwner": "Landlord",
+  "roleAgency": "Real estate agency",
+  "roleTenant": "Tenant",
+  "welcomeUser": "Hello, {name}",
+  "@welcomeUser": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "ownerRoleLabel": "Property owner",
+  "tenantFabNewContractTooltip": "New digital lease contract",
+  "notificationsSnackbar": "Notifications",
+  "contractActive": "Active",
+  "contractMyCurrent": "My current contract",
+  "labelAddress": "Address: ",
+  "labelLandlord": "Landlord: ",
+  "labelMonthlyRentDinar": "Monthly rent: ",
+  "labelMonthlyRentJod": "Monthly rent: {amount} JOD",
+  "@labelMonthlyRentJod": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "endsOn": "Ends in: ",
+  "annualProgress": "Annual progress: {current}/{total} days",
+  "@annualProgress": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "pastContracts": "Past contracts",
+  "searchFindHome": "Find your home",
+  "searchDiscover": "Discover the best available apartments",
+  "aiPredictTitle": "Predict rent with AI",
+  "aiPredictSubtitle": "Estimate from area, floor, age, maintenance, and reference prices",
+  "recentNotifications": "Recent notifications",
+  "notifRentReceivedTitle": "March rent received",
+  "notifRentReceivedTime": "2 days ago",
+  "notifContractEndingTitle": "Reminder: contract ends in 45 days",
+  "notifContractEndingTime": "A week ago",
+  "quickRateLandlord": "Rate landlord",
+  "quickRateLandlordSub": "Share your experience",
+  "quickRenewContract": "Renew contract",
+  "quickRenewContractSub": "Renew your contract now",
+  "needActiveContract": "This requires an active contract. Sign in as a tenant.",
+  "ownerStatRented": "Rented",
+  "ownerStatVacant": "Vacant",
+  "ownerStatTotalRent": "Total rent",
+  "ownerMyRented": "My rented properties",
+  "ownerMyVacant": "My vacant properties",
+  "ownerProposedRent": "Suggested rent: {amount} JOD",
+  "@ownerProposedRent": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "rateTenant": "Rate tenant",
+  "publishProperty": "Publish listing",
+  "propertyNotFoundTitle": "Not found",
+  "propertyNotFoundBody": "Property not found",
+  "propertyAvailableNow": "Available now",
+  "propertyNotAvailable": "Not available",
+  "propertyPricePerMonth": "Price / month",
+  "propertyArea": "Area",
+  "propertyDescription": "Description",
+  "propertyOwnerSection": "Property owner",
+  "propertyCall": "Call",
+  "propertyWhatsapp": "WhatsApp",
+  "propertySubmitRentalRequest": "Submit rental request",
+  "propertyTenantReviews": "Tenant reviews",
+  "propertyIsPriceFair": "Is the price fair?",
+  "propertyExpectedRange": "Expected range for the area: {low}–{high} JOD / month",
+  "@propertyExpectedRange": {
+    "placeholders": {
+      "low": {},
+      "high": {}
+    }
+  },
+  "propertySmartPredictionDetails": "Smart prediction details",
+  "propertyOwnerListingsCount": "· {count} listings",
+  "@propertyOwnerListingsCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "propertyRoomsCount": "{n} rooms",
+  "@propertyRoomsCount": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "propertyBathsCount": "{n} baths",
+  "@propertyBathsCount": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "searchAll": "All",
+  "searchPageTitle": "Find your home",
+  "searchPageSubtitle": "Discover the best apartments for rent in Jordan",
+  "searchBack": "Back",
+  "searchFilterTooltip": "Filter",
+  "searchPricePredictTooltip": "Predict price by area",
+  "searchFieldHint": "Search by area or city…",
+  "searchDistrictLabel": "Area: {district}",
+  "@searchDistrictLabel": {
+    "placeholders": {
+      "district": {}
+    }
+  },
+  "searchFoundCount": "Found {count} properties",
+  "@searchFoundCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "searchOwnerRating": "Landlord rating",
+  "searchJodPerMonthShort": "JOD/mo",
+  "rentalRequestErrorTitle": "Error",
+  "rentalRequestTitle": "Rental request",
+  "rentalRequestSummary": "Request summary",
+  "rentalRequestSentTitle": "Sent",
+  "rentalRequestSentBody": "Your request was received. The owner or platform will contact you soon.",
+  "rentalRequestSubmit": "Submit request",
+  "profileTitle": "Profile",
+  "profileNoUser": "No registered user.",
+  "profileMyRatingsTitle": "My ratings",
+  "profileMyRatingsSubtitle": "View your reputation and received ratings",
+  "addPropertyTitle": "Add new property",
+  "addPropertyPlaceholder": "Property address, price, photos, and map location will be entered here later.",
+  "addPropertyFieldLabel": "Property title (demo)",
+  "addPropertyClose": "Close",
+  "myRatingsTitle": "My ratings",
+  "myRatingsLoginRequired": "Sign in to view your ratings.",
+  "myRatingsWrongAccount": "No history for your account type.",
+  "myRatingsStarDistribution": "Star distribution",
+  "myRatingsAllReviews": "All reviews",
+  "myRatingsEmpty": "No ratings yet.",
+  "myRatingsAverageGeneral": "Overall average",
+  "myRatingsCriteriaAsLandlord": "Your criteria as landlord",
+  "myRatingsCriteriaAsTenant": "Your criteria as tenant",
+  "criteriaCooperation": "Cooperation & communication",
+  "criteriaMaintenance": "Property maintenance",
+  "criteriaResponsiveness": "Responsiveness",
+  "criteriaTransparency": "Transparency",
+  "criteriaPayment": "Payment timeliness",
+  "criteriaPropertyCare": "Property care",
+  "criteriaTenantCooperation": "Cooperation",
+  "criteriaContractCompliance": "Contract compliance",
+  "publicProfileTitle": "Public profile",
+  "publicProfileNotFound": "User not found.",
+  "publicProfilePhone": "Phone: {phone}",
+  "@publicProfilePhone": {
+    "placeholders": {
+      "phone": {}
+    }
+  },
+  "publicProfileReviewCount": "({count} reviews)",
+  "@publicProfileReviewCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "publicProfilePropertyTitles": "Property titles (no sensitive details)",
+  "publicProfileRoomCount": "{title} — {rooms} rooms",
+  "@publicProfileRoomCount": {
+    "placeholders": {
+      "title": {},
+      "rooms": {}
+    }
+  },
+  "publicProfileViewAllReviews": "View all reviews",
+  "publicAllReviewsTitle": "All reviews",
+  "publicNoReviews": "No reviews.",
+  "landlordReviewsTitle": "All landlord reviews",
+  "sortNewest": "Newest",
+  "sortHighestRating": "Highest rating",
+  "sortLowestRating": "Lowest rating",
+  "tenantReputationAvg": "Average rating out of 5",
+  "reportReviewTitle": "Report abusive review",
+  "reportReviewBody": "The report will be sent to the Ejari team for review (demo).",
+  "reportReviewHint": "Reason (optional)",
+  "reportReviewSubmit": "Submit",
+  "reportReviewReceived": "Report #{id} received and will be reviewed.",
+  "@reportReviewReceived": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "reportReviewReceivedWithNote": "Report #{id}: {note}",
+  "@reportReviewReceivedWithNote": {
+    "placeholders": {
+      "id": {},
+      "note": {}
+    }
+  },
+  "pricePredictionTitle": "AI rent price prediction",
+  "pricePredictionIntro": "Smart prediction — enter the criteria below for a fair approximate rent (mock model).",
+  "pricePredictionHintAreaExample": "e.g. 120",
+  "pricePredictionHintOutdoor": "Can be 0",
+  "pricePredictionNoneNoEffect": "None — no effect",
+  "pricePredictionStarsOfFive": "{n} of 5",
+  "@pricePredictionStarsOfFive": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "pricePredictionMaintHint": "Short description, e.g. AC service",
+  "pricePredictionDeleteTooltip": "Remove",
+  "pricePredictionAddMaintenance": "Add maintenance",
+  "pricePredictionRefPriceHint": "Price {n}",
+  "@pricePredictionRefPriceHint": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "pricePredictionAddRefPrice": "Add reference price",
+  "pricePredictionComputing": "Computing…",
+  "pricePredictionPredict": "Predict price",
+  "pricePredictionSmart": "Smart prediction",
+  "pricePredictionFairExpected": "Expected fair price: {amount} JOD/month",
+  "@pricePredictionFairExpected": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "pricePredictionDisclaimer": "The calculation is mock and assumes accurate input; use only as a rough guide.",
+  "pricePredictionErrHouseArea": "Enter a house area greater than zero.",
+  "pricePredictionErrOutdoorNegative": "Outdoor land area cannot be negative.",
+  "floorGround": "Ground floor",
+  "floorFirst": "First floor",
+  "floorSecond": "Second floor",
+  "floorThird": "Third floor",
+  "floorRoof": "Roof / penthouse",
+  "floorVilla": "Standalone villa",
+  "compareAboveExpected": "Above expected range",
+  "compareBelowExpected": "Below expected range",
+  "compareWithinExpected": "Within expected range",
+  "landlordRatingTitle": "Rate landlord",
+  "landlordRatingNoContract": "No active contract to show.",
+  "landlordRatingErrCriteria": "Please select all criteria (at least one star each).",
+  "landlordRatingErrDuplicate": "You already rated this landlord for this contract.",
+  "landlordRatingErrOwner": "Could not determine landlord from contract.",
+  "landlordRatingSuccessTitle": "Done",
+  "landlordRatingSuccessBody": "Your rating was sent and will appear in the landlord’s record.",
+  "landlordRatingAnonymousTitle": "Hide my name and show “Lucky user”",
+  "landlordRatingSubmit": "Submit rating",
+  "tenantRatingTitle": "Rate tenant",
+  "tenantRatingErrOwnerOnly": "You must be signed in as a landlord.",
+  "tenantRatingErrCriteria": "Please select all criteria.",
+  "tenantRatingErrDuplicate": "You already rated this tenant for this contract.",
+  "tenantRatingSuccessTitle": "Done",
+  "tenantRatingSuccessBody": "Your rating was sent and will appear in the tenant’s record.",
+  "tenantRatingSubmit": "Submit rating",
+  "agencyUnauthorized": "Unauthorized",
+  "agencyContractsTitle": "Contracts",
+  "agencyContractNumber": "Contract #: {id}",
+  "@agencyContractNumber": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "agencyPropertyLabel": "Property: {title}",
+  "@agencyPropertyLabel": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "agencyTenantLabel": "Tenant: ",
+  "agencyOwnerLabel": "Owner: ",
+  "agencyContractStatusActive": "Active",
+  "agencyContractStatusEnded": "Ended",
+  "agencyDateRange": "From {start} to {end}",
+  "@agencyDateRange": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "agencyMonthlyRent": "Monthly rent: {amount} JOD",
+  "@agencyMonthlyRent": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "agencyCommissionPercent": "Commission: {p}%",
+  "@agencyCommissionPercent": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "agencyPdfSnack": "Download PDF: {url}",
+  "@agencyPdfSnack": {
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "agencyRenewMock": "Renew contract on behalf (mock) — sent to both parties",
+  "agencyRenewContract": "Renew contract",
+  "agencyPropertiesTitle": "Office properties",
+  "agencyAddPropertyNew": "Add new property",
+  "agencyVacant": "Vacant",
+  "agencyRented": "Rented",
+  "agencyEditMock": "Edit property (demo)",
+  "agencyDeleteMock": "Delete property (demo)",
+  "agencyRequestTitle": "Rental request",
+  "agencyRequestNotFound": "Request not found",
+  "agencyRequestReviewTitle": "Review request",
+  "agencyStatusPending": "Pending review",
+  "agencyStatusAccepted": "Accepted",
+  "agencyStatusRejected": "Rejected",
+  "agencyPropertyLine": "Property: {title}",
+  "@agencyPropertyLine": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "agencyDateLine": "Date: {date}",
+  "@agencyDateLine": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "agencyStatusLine": "Status: {status}",
+  "@agencyStatusLine": {
+    "placeholders": {
+      "status": {}
+    }
+  },
+  "agencyTenantRecord": "Tenant record",
+  "agencyAcceptMock": "Request accepted (mock)",
+  "agencyAccept": "Accept",
+  "agencyRejectMock": "Request rejected (mock)",
+  "agencyReject": "Reject",
+  "agencyRequestsTitle": "Rental requests",
+  "agencyOwnersTitle": "Owners",
+  "agencyAddOwner": "Add owner",
+  "agencyAddOwnerDialogTitle": "Add new owner",
+  "agencyAddOwnerDialogBody": "Enter national ID to fetch data (mock).",
+  "agencyNationalIdLabel": "National ID",
+  "agencyFetchMock": "Owner data loaded (mock) for ID {id}",
+  "@agencyFetchMock": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "agencyFetchData": "Fetch data",
+  "agencyDashboardTitle": "Real estate office",
+  "agencyDashboardNoOffice": "No office linked to your account.",
+  "agencyAddProperty": "Add property",
+  "agencyShowAllProperties": "View all properties",
+  "agencyIncomingRequests": "Incoming rental requests",
+  "agencyShowAllRequests": "View all requests",
+  "agencyContractsViaOffice": "Contracts via office",
+  "agencyShowAll": "View all",
+  "agencyCommissionLog": "Commission log",
+  "agencyShowFullLog": "View full log",
+  "agencyOfficeRating": "Office rating",
+  "agencyShowAllReviews": "View all ratings",
+  "agencyReview": "Review",
+  "agencyCommissionLine": "Commission {p}%",
+  "@agencyCommissionLine": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "agencyPdfOpenMock": "Opening PDF link (demo)",
+  "agencyCommissionAmount": "{amount} JOD — {state}",
+  "@agencyCommissionAmount": {
+    "placeholders": {
+      "amount": {},
+      "state": {}
+    }
+  },
+  "agencyPaid": "Paid",
+  "agencyDue": "Due",
+  "agencyAddPropertyScreenTitle": "Add property for office",
+  "agencyDelegatedOwner": "Delegated owner",
+  "agencySelectOwnerSnack": "Select delegated owner",
+  "agencySavePropertyMock": "Request saved (mock) — pending review",
+  "agencySaveProperty": "Save property",
+  "agencyReviewsTitle": "Office reviews",
+  "agencyAvgOfficeRating": "Office average rating",
+  "agencySettingsTitle": "Office settings",
+  "agencySettingsSavedMock": "Settings saved (mock)",
+  "agencyExportMock": "Report exported (mock)",
+  "agencyExport": "Export",
+  "agencyCommissionsTitle": "Commission history",
+  "agencyColContractDate": "Contract date",
+  "agencyColProperty": "Property",
+  "agencyColAnnualRent": "Annual rent",
+  "agencyColCommissionPct": "Commission %",
+  "agencyColAmount": "Amount",
+  "agencyColPayment": "Payment",
+  "digitalContractTitle": "Certified digital contract",
+  "digitalContractTenantOnly": "The certified digital contract is available to tenants. Sign in as a tenant from the home screen.",
+  "digitalContractRenewTitle": "Renew digital contract",
+  "digitalContractNewTitle": "Certified digital lease",
+  "digitalContractIssueCert": "Issue certificate & download",
+  "dcStep1Title": "1. Property info (Land Department — mock)",
+  "dcStep2Title": "2. Rent details",
+  "dcStep3Title": "3. Parties (Digital ID — mock)",
+  "dcStep4Title": "4. Contract preview & e-signature",
+  "dcStep5Title": "5. Certification fee & payment",
+  "dcLabelDeedRef": "Deed / document reference",
+  "dcLabelParcel": "Parcel / basin number",
+  "dcSearchLand": "Search registry (simulation)",
+  "dcSearchingLand": "Searching…",
+  "dcLandResultTitle": "Lookup result",
+  "dcLinkedIdMock": "Linked ID (mock): {id}",
+  "@dcLinkedIdMock": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "dcSnackLandFetched": "Property data loaded (Land Department simulation).",
+  "dcSnackEnterNationalId": "Enter national ID first",
+  "dcSnackDigitalIdOk": "Fetched from digital ID (mock).",
+  "dcSnackDigitalIdFail": "Could not fetch — check national ID",
+  "dcSignDialogTitle": "Confirm identity to sign",
+  "dcSignDialogBody": "Choose a verification method (mock). After confirmation, the other party is notified to complete their signature per e-transactions law.",
+  "dcAuthBiometric": "Biometric",
+  "dcAuthOtp": "OTP code",
+  "dcAuthPin": "PIN",
+  "dcSignNow": "Sign now",
+  "dcSnackNotifyOther": "Verified. Notifying the other party to sign electronically (mock).",
+  "dcSnackOtherSigned": "Other party’s signature received (simulation). Continue to payment and certificate.",
+  "dcSnackDashboardUpdated": "Your contract was updated on the dashboard.",
+  "dcSnackCertFail": "Could not issue certificate: {error}",
+  "@dcSnackCertFail": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "dcValidateLand": "Use “Search” to load property data from the Land Department (mock).",
+  "dcValidateRent": "Enter a valid monthly rent",
+  "dcValidateDeposit": "Enter a valid deposit amount",
+  "dcValidateConfirmParties": "Confirm landlord and tenant data from digital ID.",
+  "dcValidatePartyNames": "Complete party details",
+  "dcValidateSignatures": "Complete e-signature and wait for the other party (simulation)",
+  "dcValidateCertPay": "Select a certification fee payment method",
+  "dcDurationLabel": "Contract duration",
+  "dcDurationOneYear": "One year",
+  "dcDurationTwoYears": "Two years",
+  "dcDurationThreeYears": "3 years",
+  "dcMonthlyRentLabel": "Monthly rent (JOD)",
+  "dcRentPaymentMethod": "Rent payment method",
+  "dcDepositLabel": "Security deposit (JOD)",
+  "dcLeaseStartTitle": "Lease start date",
+  "dcLeaseEndComputed": "Computed end date: {date}",
+  "@dcLeaseEndComputed": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "dcPartyOwnerTitle": "Landlord details",
+  "dcPartyTenantTitle": "Tenant details",
+  "dcPartiesIntro": "Data is retrieved automatically from the digital identity system for certification. Confirm after review.",
+  "dcFullName": "Full name",
+  "dcNationalId": "National ID",
+  "dcFetchDigitalId": "Fetch from digital ID",
+  "dcConfirmData": "I confirm the displayed data is correct",
+  "dcPreviewIntro": "The text below summarizes common rental terms aligned with Jordanian law; technical schedules may be added later.",
+  "dcSignNowButton": "Sign now",
+  "dcSigningStatusBoth": "Signatures from both parties completed (simulation)",
+  "dcSigningStatusWait": "Waiting for other party’s signature (simulation)…",
+  "dcCertFeeLine": "Ejari certificate fee for this contract: {fee} JOD (mock, range 10–20 JOD).",
+  "@dcCertFeeLine": {
+    "placeholders": {
+      "fee": {}
+    }
+  },
+  "dcPayMethodMock": "Payment method (simulation)",
+  "dcAfterPayBlurb": "After payment, an Ejari PDF certificate with QR verification is created and your dashboard contract is updated.",
+  "dcProgressStep": "Step {step} of 5 — {label}",
+  "@dcProgressStep": {
+    "placeholders": {
+      "step": {},
+      "label": {}
+    }
+  },
+  "dcProgressLabelProperty": "Property",
+  "dcProgressLabelRent": "Rent",
+  "dcProgressLabelParties": "Parties",
+  "dcProgressLabelSign": "Signature",
+  "dcProgressLabelPay": "Payment",
+  "dcBarCancel": "Cancel",
+  "dcBarBack": "Back",
+  "dcRentPayBank": "Monthly bank transfer",
+  "dcRentPayCash": "Cash when due",
+  "dcRentPayWallet": "E-wallet",
+  "dcCertPayCard": "Bank card (mock)",
+  "dcCertPayGovWallet": "Government wallet (mock)",
+  "dcCertPayInstant": "Instant transfer",
+  "dcConfirmSignDialogVerified": "Verified. Notifying the other party to sign the contract electronically (mock).",
+  "landlordReviewStars": "{n}/5",
+  "@landlordReviewStars": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "wordYear": "year",
+  "wordYears": "years"
+}
